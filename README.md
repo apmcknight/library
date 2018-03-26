@@ -48,9 +48,9 @@ ______________________________________
 ### Part Two (000%)
 * Brainstorming: 50+ themes
 * Word Document that contains:
-  1. Description of site’s goal(s)
-  2. Description of target audience
-  3. Description and Research of product/service
+  1. <s>Description of site’s goal(s)</s>
+  2. <s>Description of target audience</s>
+  3. <s>Description and Research of product/service</s>
   4. Research of 5+ competitors and/or similar sites 
 * Separate Word Document containing *3 personas*
 *	15+ clean well defined sketches that show multiple disparate approaches
