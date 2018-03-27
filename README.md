@@ -16,10 +16,10 @@ ______________________________________
 ### Part Two (40%) — DUE March 29th
 1. Brainstorming: 50+ themes
 2. Word Document that contains:
-  1. <s>Description of site’s goal(s)</s>
-  2. <s>Description of target audience</s>
-  3. <s>Description and Research of product/service</s>
-  4. <b>Research of 5+ competitors and/or similar sites</b>
+    a. <s>Description of site’s goal(s)</s>
+    b. <s>Description of target audience</s>
+    c. <s>Description and Research of product/service</s>
+    d <b>Research of 5+ competitors and/or similar sites</b>
 3. <s>Separate Word Document containing *3 personas*</s>
 4. 15+ clean well defined sketches that show multiple disparate approaches
 5. Four mock-ups (hand-drawn) for four different site layouts: Conference with TF to select strongest layout.
