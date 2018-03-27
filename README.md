@@ -14,16 +14,16 @@ ______________________________________
 
 
 ### Part Two (40%) — DUE March 29th
-* Brainstorming: 50+ themes
-* Word Document that contains:
+1. Brainstorming: 50+ themes
+2. Word Document that contains:
   1. <s>Description of site’s goal(s)</s>
   2. <s>Description of target audience</s>
   3. <s>Description and Research of product/service</s>
   4. <b>Research of 5+ competitors and/or similar sites</b>
-  5. <s>Separate Word Document containing *3 personas*</s>
-  6. 15+ clean well defined sketches that show multiple disparate approaches
-  7. Four mock-ups (hand-drawn) for four different site layouts: Conference with TF to select strongest layout.
-  8. One final digital version of rough showing 3 final responsive layouts. Note: Digital rough of the site’s responsive layouts, navigation, and content must be completed and approved before starting on hard-coding final site
+3. <s>Separate Word Document containing *3 personas*</s>
+4. 15+ clean well defined sketches that show multiple disparate approaches
+5. Four mock-ups (hand-drawn) for four different site layouts: Conference with TF to select strongest layout.
+6. One final digital version of rough showing 3 final responsive layouts. Note: Digital rough of the site’s responsive layouts, navigation, and content must be completed and approved before starting on hard-coding final site
 
 
 ### Part Three (000%) — DUE TBD
