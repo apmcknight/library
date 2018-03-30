@@ -41,6 +41,13 @@ ______________________________________
   12. All images and content must be of your own creation!
   13. Organization may be personalized but also must be defendable for general public usage.
 
+# User Storys:
+______________________________________
+1. I can easily find creative resources that are helpful.
+2. I'm able to navigate to different resource categories.
+3. I can quickly see who created HIDDEN, and see his work.
+4. I can click on a button to open the full resource.
+
 
 # TODO (Also in Project Issues):
 ______________________________________
