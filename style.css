@@ -33,14 +33,13 @@ h1{
 }
 
 .nav-img{
-  width: auto;
+  width: 200px;
   height: auto;
-  /* margin-left: auto;
-  margin-right: auto; */
+  margin-left: 100px;
+  margin-right: 50px;
   font-family: Montserrat;
   font-style: normal;
   font-weight: bold;
-  line-height: normal;
   font-size: 35px;
   text-align: center;
   letter-spacing: 0.15em;
@@ -63,4 +62,29 @@ h1{
   letter-spacing: 0.15em;
   color: #000000;
   text-decoration: none;
+}
+
+.featured{
+  padding-top: 55px;
+}
+
+.items{
+  padding-left: 35px;
+  padding-right: auto;
+}
+
+.item1{
+  margin: 25px;
+  width: 600px;
+  height: 400px;
+  float: left;
+  background: #C4C4C4;
+}
+
+.item2{
+  margin: 25px;
+  width: 600px;
+  height: 400px;
+  float: left;
+  background: #C4C4C4;
 }
