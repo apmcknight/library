@@ -24,6 +24,7 @@ h3{
   color: #fff;
   font-size: 15px;
   letter-spacing: 3px;
+  padding-top: -250px;
   text-transform: uppercase;
   padding-left: 150px;
   z-index: 16;
@@ -31,7 +32,7 @@ h3{
 
 button{
   /* positioning classes */
-  position: absolute;
+  position: relative;
   width: 155px;
   height: 45px;
   left: 155px;
@@ -67,7 +68,7 @@ button{
 }
 
 .parallaxImg0 {
-  background-color: green;
+  background-color: #ff0085;
   /* background-image: url("assets/thumbnails/design-unsplash.png"); */
 }
 
