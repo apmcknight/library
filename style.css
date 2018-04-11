@@ -66,6 +66,7 @@ h1{
 
 .featured{
   padding-top: 55px;
+  margin-bottom: 100px;
 }
 
 .items{
@@ -87,4 +88,9 @@ h1{
   height: 400px;
   float: left;
   background: #C4C4C4;
+}
+
+.design{
+  margin-bottom: 100px;
+  padding-top: 55px;
 }

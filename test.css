@@ -1,0 +1,78 @@
+@charset "UTF-8";
+*{
+  box-sizing: border-box;
+}
+
+body{
+  font-family: Montserrat, sans-serif;
+  width: auto;
+  height: 3000px;
+}
+
+h2{
+  font-weight: 600;
+  color: #fff;
+  font-size: 55px;
+  letter-spacing: 2px;
+  padding-top: 375px;
+  padding-left: 150px;
+  z-index: 15;
+}
+
+h3{
+  font-weight: normal;
+  color: #fff;
+  font-size: 15px;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  /* margin-top: -25px; */
+  padding-left: 150px;
+  z-index: 15;
+}
+
+button{
+  /* positioning classes */
+  position: absolute;
+  width: 155px;
+  height: 45px;
+  left: 155px;
+  top: 600px;
+
+  /* font classes */
+  color: #fff;
+  font-family: Montserrat, sans-serif;
+  font-weight: 300;
+  letter-spacing: 3px;
+
+  /* button background classes */
+  background-color: transparent;
+  border-width: medium;
+  border-style: solid;
+  border-color: #fff;
+  border-width: 2px;
+}
+
+.parallax {
+  /* Set a specific height */
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: -30px;
+  width: auto;
+  height: 750px;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: auto;
+}
+
+.parallaxImg1 {
+  /* The image used */
+  background-image: url("assets/thumbnails/sickboy.png");
+}
+
+.parallaxImg2 {
+  /* The image used */
+  background-image: url("assets/thumbnails/dribbble_elevation.png");
+}
