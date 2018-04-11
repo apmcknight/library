@@ -25,9 +25,8 @@ h3{
   font-size: 15px;
   letter-spacing: 3px;
   text-transform: uppercase;
-  /* margin-top: -25px; */
   padding-left: 150px;
-  z-index: 15;
+  z-index: 16;
 }
 
 button{
@@ -67,6 +66,11 @@ button{
   background-size: auto;
 }
 
+.parallaxImg0 {
+  background-color: green;
+  /* background-image: url("assets/thumbnails/design-unsplash.png"); */
+}
+
 .parallaxImg1 {
   /* The image used */
   background-image: url("assets/thumbnails/sickboy.png");
@@ -75,4 +79,14 @@ button{
 .parallaxImg2 {
   /* The image used */
   background-image: url("assets/thumbnails/dribbble_elevation.png");
+}
+
+.mark {
+  position: absolute;
+  left: 0px;
+  top: 250px;
+  width: 55%;
+  height: auto;
+  padding-left: 150px;
+  z-index: 15;
 }
