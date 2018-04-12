@@ -6,7 +6,7 @@
 body{
   font-family: Montserrat, sans-serif;
   width: auto;
-  height: 3000px;
+  height: auto;
 }
 
 h2{
@@ -14,7 +14,7 @@ h2{
   color: #fff;
   font-size: 55px;
   letter-spacing: 2px;
-  padding-top: 375px;
+  padding-top: 350px;
   padding-left: 150px;
   z-index: 15;
 }
@@ -30,13 +30,37 @@ h3{
   z-index: 16;
 }
 
+p{
+  font-weight: normal;
+  color: #fff;
+  font-size: 15px;
+  letter-spacing: 3px;
+  padding-top: -500px;
+  padding-left: 150px;
+  padding-right: 550px;
+  margin-right: 50px;
+  text-transform: uppercase;
+  z-index: 16;
+}
+
+nav{
+  padding-left: 500px;
+  padding-top: 55px;
+  margin-left: auto;
+  margin-right: auto;
+  width: auto;
+  height: 75px;
+  background: #FFFFFF;
+  box-shadow: 0px 4px 50px rgba(0, 0, 0, 0.25)
+}
+
 button{
   /* positioning classes */
-  position: relative;
+  position: absolute;
   width: 155px;
   height: 45px;
-  left: 155px;
-  top: 600px;
+  left: 150px;
+  top: 650px;
 
   /* font classes */
   color: #fff;
@@ -68,18 +92,19 @@ button{
 }
 
 .parallaxImg0 {
-  background-color: #ff0085;
-  /* background-image: url("assets/thumbnails/design-unsplash.png"); */
+  background-image: url("assets/sand.jpg");
 }
 
 .parallaxImg1 {
-  /* The image used */
   background-image: url("assets/thumbnails/sickboy.png");
 }
 
 .parallaxImg2 {
-  /* The image used */
   background-image: url("assets/thumbnails/dribbble_elevation.png");
+}
+
+.parallaxImg3 {
+  background-color: #000;
 }
 
 .mark {
@@ -90,4 +115,67 @@ button{
   height: auto;
   padding-left: 150px;
   z-index: 15;
+}
+
+.credit{
+  font-weight: normal;
+  color: #fff;
+  font-size: 15px;
+  letter-spacing: 3px;
+  padding-top: -250px;
+  text-transform: uppercase;
+  padding-left: 150px;
+  z-index: 16;
+}
+
+.button0{
+  /* positioning classes */
+  position: relative;
+  width: 155px;
+  height: 45px;
+  left: 150px;
+  top: 780px;
+}
+
+.button1{
+  /* positioning classes */
+  position: relative;
+  width: 155px;
+  height: 45px;
+  left: 150px;
+  top: 780px;
+}
+
+.button2{
+  /* positioning classes */
+  position: relative;
+  width: 155px;
+  height: 45px;
+  left: 150px;
+  top: 780px;
+}
+
+.button3{
+  /* positioning classes */
+  position: relative;
+  width: 155px;
+  height: 45px;
+  left: 150px;
+  top: 780px;
+}
+
+.nav-link{
+  block: inline;
+  padding: 15px;
+  width: 73px;
+  height: auto;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  font-size: 15px;
+  text-align: center;
+  letter-spacing: 0.15em;
+  color: #000000;
+  text-decoration: none;
 }
