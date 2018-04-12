@@ -96,15 +96,23 @@ button{
 }
 
 .parallaxImg1 {
-  background-image: url("assets/thumbnails/sickboy.png");
+  background-image: url("assets/thumbnails/a_elevation.png");
 }
 
 .parallaxImg2 {
-  background-image: url("assets/thumbnails/dribbble_elevation.png");
+  background-image: url("assets/thumbnails/a_unsplash.png");
 }
 
 .parallaxImg3 {
-  background-color: #000;
+  background-image: url("assets/thumbnails/a_icons.png");
+}
+
+.parallaxImg4 {
+  background-image: url("assets/thumbnails/a_thefutur.png");
+}
+
+.parallaxImg5 {
+  background-image: url("assets/thumbnails/a_type.png");
 }
 
 .mark {
