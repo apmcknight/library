@@ -55,7 +55,7 @@ nav{
 
 button{
   /* positioning classes */
-  position: absolute;
+  position: relative;
   width: 155px;
   height: 45px;
   left: 150px;
@@ -76,19 +76,9 @@ button{
 }
 
 /* links */
-a:link{
+a{
   color: #fff;
   text-decoration: none;
-}
-
-a:visited{
-  color: #fff;
-  text-decoration: none;
-}
-
-a:hover{
-  color: #fff;
-  text-decoration: line-through;
 }
 
 .parallax {
@@ -127,40 +117,33 @@ a:hover{
   z-index: 16;
 }
 
-.button0{
+/* styleing for buttons */
+.button{
   /* positioning classes */
   position: relative;
   width: 155px;
   height: 45px;
   left: 150px;
   top: 780px;
+  -webkit-transition: width 550ms, height 0s;
+  {-webkit-transition-timing-function: ease;}
+
+
+  /* For Safari 3.1 to 6.0 */
+  transition: width 550ms, height 0s;
+  {-webkit-transition-timing-function: ease;}
+
 }
 
-.button1{
+.button:hover{
   /* positioning classes */
   position: relative;
-  width: 155px;
+  width: 200px;
   height: 45px;
   left: 150px;
   top: 780px;
-}
+  padding-left: 10px;
 
-.button2{
-  /* positioning classes */
-  position: relative;
-  width: 155px;
-  height: 45px;
-  left: 150px;
-  top: 780px;
-}
-
-.button3{
-  /* positioning classes */
-  position: relative;
-  width: 155px;
-  height: 45px;
-  left: 150px;
-  top: 780px;
 }
 
 /* overides the link styleing on the nav */
@@ -217,6 +200,8 @@ a:hover{
 }
 
 
+
+
 /* background images — ALWAYS KEEP AT BOTTOM of CSS! */
 
 /* design */
@@ -245,8 +230,8 @@ a:hover{
   background-image: url("assets/thumbnails/a_type.png");
 }
 
-/* web */
 
+/* web */
 .parallaxImg6 {
   background-image: url("assets/thumbnails/b_awwards.png");
 }
@@ -273,14 +258,3 @@ a:hover{
 
 .parallaxImg11 {
   background-image: url("assets/thumbnails/b_wfshowcase.png");
-
-
-
-
-
-
-
-
-
-
-  
