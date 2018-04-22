@@ -5,6 +5,7 @@
     <title>HIDDEN – Test</title>
     <link href="https://fonts.googleapis.com/css?family=Montserrat:400,500,600,700,800,900" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <link rel="script" href="main.js">
     </head>
 
@@ -15,6 +16,21 @@
       <a class="navLink" href="#motion">MOTION</a>
       <a class="navLink" href="#about">ABOUT</a>
     </nav>
+
+    <script type="text/javascript">
+    $('a[href*="#"]:not([href="#"]):not([href="#show"]):not([href="#hide"])').click(function() {
+      if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
+        var target = $(this.hash);
+        target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+        if (target.length) {
+          $('html,body').animate({
+            scrollTop: target.offset().top
+          }, 1000);
+          return false;
+        }
+      }
+    });
+    </script>
 
     <div class="parallax parallaxImg0">
       <img class="mark" src="assets/mark.png" alt="HIDDEN">
