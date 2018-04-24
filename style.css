@@ -265,10 +265,22 @@ a{
         background-image: url("assets/thumbnails/c_npr.png");
       }
 
-  .parallaxImg15 {
+.parallaxImg15 {
         background-image: url("assets/thumbnails/c_spot.png");
           }
 
-  .parallaxImg16 {
+.parallaxImg16 {
     background-image: url("assets/thumbnails/c_yt.png");
+      }
+
+.parallaxImg17 {
+    background-image: url("assets/thumbnails/e_.vimeomotion.png");
+      }
+
+      .parallaxImg18 {
+        background-image: url("assets/thumbnails/e_makingof.png");
+      }
+
+      .parallaxImg19 {
+        background-image: url("assets/thumbnails/e_sickboy.png");
       }
